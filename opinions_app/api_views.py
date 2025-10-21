@@ -18,7 +18,7 @@ def get_opinion(id):
     return jsonify({'opinion': opinion.to_dict()}), 200
 
 
-@app.route('/api/opinions/<int:id>/', methods=['PATCH'])
+@app.route('/api/opinions/<int:id>/', methods=['PUT', 'PATCH'])
 def update_opinion(id):
     data = request.get_json()
     if (

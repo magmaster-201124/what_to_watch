@@ -1,4 +1,4 @@
-from datetime import datetime, UTC
+from datetime import datetime
 # Если у вас установлен Python до версии 3.11, используйте другой импорт:
 # from datetime import datetime, timezone
 # А также поменяйте в коде UTC на timezone.utc
